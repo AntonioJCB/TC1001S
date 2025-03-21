@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import matplotlib.pyplot as plt
 
-def apply_padding(image, pad_height=1, pad_width=1, padding_type='constant', constant_value=0):
+def padding(image, pad_height=1, pad_width=1, padding_type='constant', constant_value=0):
     # Mostrar información
     print(f"Padding type: {padding_type}")
     if padding_type == 'constant':
@@ -30,7 +30,7 @@ def apply_padding(image, pad_height=1, pad_width=1, padding_type='constant', con
         else:
             padded_image = np.pad(image, ((pad_height, pad_height), (pad_width, pad_width), (0, 0)), mode=padding_type)
 
-    print(f"Padded image shape: {padded_image.shape}")
+    print(f"Padded image: {padded_image.shape}")
 
     # Mostrar original y con padding
     fig, axs = plt.subplots(1, 2, figsize=(12, 5))
@@ -68,8 +68,8 @@ pad_h = int(input("Introduce padding en alto: "))
 pad_w = int(input("Introduce padding en ancho: "))
 
 # Aplicar padding
-padded_result = apply_padding(img, pad_height=pad_h, pad_width=pad_w,
+padded_result = padding(img, pad_height=pad_h, pad_width=pad_w,
                               padding_type=padding_type, constant_value=constant_value)
 
 # Guardar resultado
-cv2.imwrite('padded_image_user_choice.jpg', padded_result)
+cv2.imwrite('image_padding.jpg', padded_result)
