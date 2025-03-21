@@ -14,13 +14,17 @@ Required libraries: numpy, opencv-python (cv2).
 Installation
 
 Clone this repository:
+```bash
 git clone https://github.com/AntonioJCB/TC1001S.git
+```
 
 Navigate to the project directory:
 cd your-repo-name
 
 Install the required dependencies:
+```bash
 pip install -r requirements.txt
+```
 
 Usage
 Run the Python script:
