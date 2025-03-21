@@ -1,13 +1,13 @@
 # TC1001SPython Image Filter Project
 This repository contains a Python-based image filter implementation. The project demonstrates how to apply filtering techniques to process and manipulate images effectively.
 
-Features
+# Features
 
 Customizable image filtering logic.
 Easy-to-understand Python code.
 Suitable for various image processing tasks.\
 
-Requirements
+# Requirements
 
 Python 3.8 or higher.
 Required libraries: numpy, opencv-python (cv2).
@@ -30,8 +30,8 @@ Follow the instructions provided in the script to apply the convolution and padd
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-License
+# License
 This project is licensed under the MIT License.
 
-Contact
+# Contact
 For questions or suggestions, feel free to reach out at a01255264@tec.mx
