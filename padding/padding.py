@@ -61,7 +61,7 @@ if padding_type == 'constant':
         constant_value = 0
         print("Valor inválido, usando 0.")
 else:
-    constant_value = 0  # No se usa, pero se pasa igual
+    constant_value = 0  
 
 # Tamaño del padding
 pad_h = int(input("Introduce padding en alto: "))
