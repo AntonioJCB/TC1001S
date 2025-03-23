@@ -22,7 +22,6 @@ def convolve_image_no_padding(image, kernel, average=False):
     image_row, image_col = gray_image.shape
     kernel_row, kernel_col = kernel.shape
 
-    # Definir dimensiones de la salida sin padding
     output_row = image_row - kernel_row + 1
     output_col = image_col - kernel_col + 1
     output = np.zeros((output_row, output_col))
