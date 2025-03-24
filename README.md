@@ -31,20 +31,20 @@ This repository showcases a Python-based image filtering tool that demonstrates 
 
 ## Casos de prueba
 
-Convolution
-Entrada
-![alt text](convolution/Turquia.jpg)
+### Convolution
+- Entrada
+- <img src="convolution\Turquia.jpg" width="300"/>
 
-Salida
-![alt text](resultado.jpg)
+- Salida
+- <img src="resultado.jpg" width="300"/>
 
-Padding
-Entrada
-![alt text](convolution/Turquia.jpg)
-constant
-10
-10
-10
+### Padding
+- Entrada
+- <img src="padding\Turquia.jpg" width="300"/>
+- constant
+- 10
+- 10
+- 10
 
-Salida
-![alt text](image_padding.jpg)
+- Salida
+- <img src="image_padding.jpg"  width="300"/>
