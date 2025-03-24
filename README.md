@@ -1,41 +1,50 @@
-# TC1001SPython Image Filter Project
-This repository contains a Python-based image filter implementation. The project demonstrates how to apply filtering techniques to process and manipulate images effectively.
+# 🖼️ TC1001S Python Image Filter Project
 
-# Features
+This repository showcases a Python-based image filtering tool that demonstrates how to apply convolution and padding techniques to process and manipulate images. It is designed for educational purposes and can be expanded for more advanced image processing tasks.
 
-Customizable image filtering logic.
-Easy-to-understand Python code.
-Suitable for various image processing tasks.\
+---
 
-# Requirements
+## 🚀 Features
 
-Python 3.8 or higher.
-Required libraries: numpy, opencv-python (cv2).
-Installation
+- **Customizable Filtering Logic** – Easily modify the kernel and filtering approach.
+- **Clear & Well-Documented Code** – Ideal for learning or extending for personal projects.
+- **Multiple Image Processing Techniques** – Includes convolution and padding.
+- **Lightweight Dependencies** – Minimal setup with commonly used libraries.
 
-Clone this repository:
-```bash
-git clone https://github.com/AntonioJCB/TC1001S.git
-```
+---
 
-Navigate to the project directory:
-cd your-repo-name
+## 📦 Requirements
 
-Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
+- Python 3.8 or higher
+- Required libraries:
+  - `numpy`
+  - `opencv-python` (`cv2`)
+  - `matplotlib`
 
-Usage
-Run the Python script:
-python convolution.py and peadding.py
-Follow the instructions provided in the script to apply the convolution and padding to your image.
+---
 
-Contributing
-Contributions are welcome! Please fork the repository and submit a pull request.
+## 🔧 Installation
 
-# License
-This project is licensed under the MIT License.
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/AntonioJCB/TC1001S.git
 
-# Contact
-For questions or suggestions, feel free to reach out at a01255264@tec.mx
+## Casos de prueba
+
+Convolution
+Entrada
+![alt text](convolution/Turquia.jpg)
+
+Salida
+![alt text](resultado.jpg)
+
+Padding
+Entrada
+![alt text](convolution/Turquia.jpg)
+constant
+10
+10
+10
+
+Salida
+![alt text](image_padding.jpg)
